@@ -1,32 +1,51 @@
-👋 Hi, ELCI-Linux is an open source project aimed at creating a forked Linux distro for deployment in small-to-medium sized business.
+👋 Hi, ELCI-Linux is an open source project aimed at creating a forked Linux distro for home use and deployment in small-to-medium sized business.
 During the course of development, elements of the project will be published publicly for open collaboation and feed back.
+
+
 As of August 2021, the framework for the general software installer is public.
 Alphav1 features a combination of scripts designed to install and/or run various applications on debian based systems.
+The alpha program
+Alpha is a great tool for first time Linux users. 
+Alpha includes ELCI software installer (with over 100 applications) 
+Alpha gives you access to Tubi, an experimental YouTube-dl frontend. 
 
-You can use Alphav1 by typing 
+
+You can use Alphav1 by typing the command bellow into your terminal
 
 $ git clone https://www.github.com/ELCI-Linux/Alphav1
+$ cd /alphav1
+$ cd /elcirecs
 
-Once downloaded open the folder in your terminal and type in
+From here you can use any of individual install/run scripts
+
+For example, to use the ELCI software installer type
+the command below into your terminal:
 
 $ bash elci.sh
 
-You can then follow the use the terminal to execute over 100 automated software installs.
-Installs are grouped.
+
+
+You can then follow the prompts on screen 
+to execute over 100 automated software installs.
+
+
+Installs are grouped in categories. 
 
 
 Mobile support tools:
   - These tools allow users to quickly install adb and scrcpy. 
   - iOS support is coming in Alphav1
-Music:
+Music Applications:
   - Audacious + Byte + Celementine + Gnome Music Plater  : Open source audio players.
   Audacious plays music without stealing away your computer’s resources from other tasks.
   - Ardour,Bitwig + Fami Studio: A suite of three open source DAWs.
   - Hydrogen: An open source drum machine.
   - Spotify: The official Spotify client for Linux
   - Lyrics: A Karaoke Application
+
     
 Emulators:
+
     Nintendo system Emulators
   - Citra, DeSume and Melon (DS)
   - Dolphin (Gamecube + Wii)
@@ -98,7 +117,9 @@ VMOracleX.sh
 YouTubeUtilityX
   - Installs Youtube-dl, an open-source YouTube Downloader. 
     
-  
+INCOMPLETE
+- AMDGX: A tool to automate installation of AMD graphics drivers. 
+- BrowsersX: A browser installation tool. 
 
 👀 I’m interested in:
   - expanding the library of applications available through ELCI.sh
@@ -116,6 +137,23 @@ YouTubeUtilityX
 - 💞️ Now that a simple terminal-based installer for applications has created
 📫 How to reach me
   - Twitter: @danniwah
+
+Coming in Alpvav2
+- Mobsup (updates) : 
+ifuse integration, 
+sndcpy (android audio forwarding) 
+
+
+- Tubi (updates): bug fixes,ascii output support
+- ELCI badger
+- NAStalgia: Terminal based NAS creator tool
+- Miracle Cast support (Linux Out)
+- Britney: UK TV support (BBC iplayer downloads)
+- Eddy: Automated education tool built on Tubi+Youyube-dl
+- Googler (integration): terminal based Google search tool
+- Cloudeee : Cloudflare automation tool
+
+
 
 <!---
 ELCI-Linux/ELCI-Linux is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
