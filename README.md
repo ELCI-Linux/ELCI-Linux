@@ -35,6 +35,8 @@ Installs are grouped in categories.
 Mobile support tools:
   - These tools allow users to quickly install adb and scrcpy. 
   - iOS support is coming in Alphav1
+
+
 Music Applications:
   - Audacious + Byte + Celementine + Gnome Music Plater  : Open source audio players.
   Audacious plays music without stealing away your computer’s resources from other tasks.
@@ -58,7 +60,7 @@ Emulators:
   - RPCS3 (PS3)
   [Migrations]
   This script also installs Chiaki, which can be used for remote play with PS4 and PS5.
-  Steam and Steamlink are also included. 
+  Steam and Steamlink are also included. These will be migrated in future releases
 
 Linux Software package Installers
   - Pacman
@@ -94,6 +96,8 @@ elci
   - Installs mobile specific applications in MobSupX
   - Installs Terminal Emulators via TermEmuX
   - CS: Install Steam, Steamplay, Discord and Chiaki via GameX
+
+
 AndroidX
   - AndroidX is the element of MobSupx designed to install Android specific applications
 EmulatorsX
@@ -105,7 +109,7 @@ GameX.sh
 IPFirewall
   -Installs an IP table Firewall (Script from github.com/ChrisTitusTech)
 MusicX
-    - Imnsta;;s a variety of music players and production tools, including DAWs and Terminal Players,
+    - Installs a variety of music players and production tools, including DAWs and Terminal Players,
 NewsX
     - Installs a range of RSS feed readers and other News focused applications.
 PacmanX
