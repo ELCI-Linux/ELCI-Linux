@@ -10,7 +10,7 @@ Alpha includes ELCI software installer (with over 100 applications)
 Alpha gives you access to Tubi, an experimental YouTube-dl frontend. 
 
 
-You can use Alphav2 by typing the command bellow into your terminal
+You can use Alphav2 by typing the command below into your terminal
 
     $ git clone https://www.github.com/ELCI-Linux/alphav2
     $ cd /alphav2
@@ -20,28 +20,15 @@ From here you can use any of individual install/run scripts
 For example, to use the ELCI software installer type
 the command below into your terminal:
 
-     $ bash elci.sh
+    $ bash elci.sh
 
 
-DAWX is an indepent installer for DAWs that include Ardour, Bitwig, Fami and Muse. Comprised of individual installers
-
-     $ bash DAWX.sh   
 
 You can then follow the prompts on screen 
 to execute over 100 automated software installs.
 
 EmulatorsX installs a variety of Nintendo and Sony Platform Emulators
 
-Nintendo system Emulators
-  - Citra, DeSume and Melon (DS)
-  - Dolphin (Gamecube + Wii)
-  - mGBA (Gameboy + Gameboy Advanced)
-  - Nestopia (NES)
-  
-Sony System Emulators
-  - Duckstation (PS1)
-  - PCXS2 (PS2)
-  - RPCS3 (PS3)
 To run EmulatorsX, type in the following command:
 
         $ bash EmulatorsX.sh
@@ -139,6 +126,61 @@ WX
 - Installs tools for running Windows Applications on Linux Desktop Devices.
 
       $ bash WX.sh
+
+elci.sh Application List (Incomplete)
+
+Digital Audio Workstations
+  - Ardour
+  - Bitwig Studio
+  - Fami Studio
+  - Muse
+  - Hydrogen Drum Machine (Will be migrated from MusicX to DAWX in V3)
+
+Mobile Support and Development
+  - ADB (Android Debugging Bridge) + scrcpy (Wired Only)
+
+Music Players (GUI'd)
+   - Byte
+   - Clementine
+   - C*
+   - Darling
+   - Gnome Music Player
+   - Spotify
+
+Music Players (Terminal Based)
+   - CMUS
+   - MPC
+   - mpg123
+   - mp3 Blaster
+   - SoX
+   -
+
+
+Nintendo system Emulators
+  - Citra, DeSume and Melon (DS)
+  - Dolphin (Gamecube + Wii)
+  - mGBA (Gameboy + Gameboy Advanced)
+  - Nestopia (NES)
+  
+Sony System Emulators
+  - Duckstation (PS1)
+  - PCXS2 (PS2)
+  - RPCS3 (PS3)
+
+TWitter Terminal Clients
+  - Rainbow Stream
+
+Windows On Linux
+  - Bottles
+  - Phoenecics
+ 
+Virtualisation 
+   - Boxes
+   - Oracle VM
+
+YouTube and Web Video
+   - Youtube-dl
+
 INCOMPLETE
 - AMDGX: A tool to automate installation of AMD graphics drivers. 
 - BrowsersX: A browser installation tool. 
