@@ -10,24 +10,43 @@ Alpha includes ELCI software installer (with over 100 applications)
 Alpha gives you access to Tubi, an experimental YouTube-dl frontend. 
 
 
-You can use Alphav1 by typing the command bellow into your terminal
+You can use Alphav2 by typing the command bellow into your terminal
 
-$ git clone https://www.github.com/ELCI-Linux/Alphav1
-$ cd /alphav1
-$ cd /elcirecs
+    $ git clone https://www.github.com/ELCI-Linux/alphav2
+    $ cd /alphav2
 
 From here you can use any of individual install/run scripts
 
 For example, to use the ELCI software installer type
 the command below into your terminal:
 
-$ bash elci.sh
+     $ bash elci.sh
 
 
+DAWX is an indepent installer for DAWs that include Ardour, Bitwig, Fami and Muse. Comprised of individual installers
+
+     $ bash DAWX.sh   
 
 You can then follow the prompts on screen 
 to execute over 100 automated software installs.
 
+EmulatorsX installs a variety of Nintendo and Sony Platform Emulators
+
+Nintendo system Emulators
+  - Citra, DeSume and Melon (DS)
+  - Dolphin (Gamecube + Wii)
+  - mGBA (Gameboy + Gameboy Advanced)
+  - Nestopia (NES)
+  
+Sony System Emulators
+  - Duckstation (PS1)
+  - PCXS2 (PS2)
+  - RPCS3 (PS3)
+To run EmulatorsX, type in the following command:
+
+        $ bash EmulatorsX.sh
+      
+ 
 
 Installs are grouped in categories. 
 
@@ -45,19 +64,6 @@ Music Applications:
   - Spotify: The official Spotify client for Linux
   - Lyrics: A Karaoke Application
 
-    
-Emulators:
-
-    Nintendo system Emulators
-  - Citra, DeSume and Melon (DS)
-  - Dolphin (Gamecube + Wii)
-  - mGBA (Gameboy + Gameboy Advanced)
-  - Nestopia (NES)
-  
-    Sony System Emulators
-  - Duckstation (PS1)
-  - PCXS2 (PS2)
-  - RPCS3 (PS3)
   [Migrations]
   This script also installs Chiaki, which can be used for remote play with PS4 and PS5.
   Steam and Steamlink are also included. These will be migrated in future releases
@@ -100,16 +106,26 @@ elci
 
 AndroidX
   - AndroidX is the element of MobSupx designed to install Android specific applications
+
+        $ bash AndroidX.sh
+
 EmulatorsX
     - EmulatorsX is an element of GameX that installs a variety of portable and home console emulators.
+          
+        $ EmulatorsX.sh
+
 FranzXInstall
    - Installs Franz (a multiplatorm social media client)
 GameX.sh
     - Installs emulators (via EmulatorsX), Steam (and SteamPlay) and Chiaki (PS4 and PS4 remote play support).
-IPFirewall
+IPFirewallX
   -Installs an IP table Firewall (Script from github.com/ChrisTitusTech)
+
+          $ bash IPFireWallX.sh
 MusicX
-    - Installs a variety of music players and production tools, including DAWs and Terminal Players,
+    - Installs a variety of music players, including Terminal Players.
+          
+          $ bash MusicX.sh
 NewsX
     - Installs a range of RSS feed readers and other News focused applications.
 PacmanX
@@ -117,10 +133,12 @@ PacmanX
 RSTwitterXInstall
     - Installs the Rainbow Stream terminal-based Twitter Client
 VMOracleX.sh
-  - Installs Virtualbox VM by Oracle   
-YouTubeUtilityX
-  - Installs Youtube-dl, an open-source YouTube Downloader. 
-    
+  - Installs Virtualbox VM by Oracle  
+
+WX
+- Installs tools for running Windows Applications on Linux Desktop Devices.
+
+      $ bash WX.sh
 INCOMPLETE
 - AMDGX: A tool to automate installation of AMD graphics drivers. 
 - BrowsersX: A browser installation tool. 
