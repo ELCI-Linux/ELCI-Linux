@@ -9,6 +9,9 @@ Alpha is a great tool for first time Linux users.
 Alpha includes ELCI software installer (with over 100 applications) 
 Alpha gives you access to Tubi, an experimental YouTube-dl frontend. 
 
+DEVELOPMENT IS ONTO alphav3 - current public access is restricted to V2
+
+
 
 You can use Alphav2 by typing the command below into your terminal
 
@@ -36,39 +39,6 @@ To run EmulatorsX, type in the following command:
  
 
 Installs are grouped in categories. 
-
-
-Mobile support tools:
-  - These tools allow users to quickly install adb and scrcpy. 
-  - iOS support is coming in Alphav1
-
-
-Music Applications:
-  - Audacious + Byte + Celementine + Gnome Music Plater  : Open source audio players.
-  Audacious plays music without stealing away your computer’s resources from other tasks.
-  - Ardour,Bitwig + Fami Studio: A suite of three open source DAWs.
-  - Hydrogen: An open source drum machine.
-  - Spotify: The official Spotify client for Linux
-  - Lyrics: A Karaoke Application
-
-  [Migrations]
-  This script also installs Chiaki, which can be used for remote play with PS4 and PS5.
-  Steam and Steamlink are also included. These will be migrated in future releases
-
-Linux Software package Installers
-  - Pacman
-  - Flatpak
-  
-(System) Terminal Emulators
-  - Terminator
-  - Yakuake
-  
-Mobile OS Support
-  - ADB (Android Debugging Bridge)
-  - scrcpy (ADB Assisted Android-to-Linux screen mirroring)
-  
- Virutalisation (Virtual Machines)
- - Oracle Virtualbox
  
 ELCI Shell Apps (In Development)
   These apps are designed by ELCI using bash scripts to automate Terminal Processes.
@@ -153,9 +123,7 @@ Music Players (Terminal Based)
    - mpg123
    - mp3 Blaster
    - SoX
-   -
-
-
+   
 Nintendo system Emulators
   - Citra, DeSume and Melon (DS)
   - Dolphin (Gamecube + Wii)
@@ -166,6 +134,10 @@ Sony System Emulators
   - Duckstation (PS1)
   - PCXS2 (PS2)
   - RPCS3 (PS3)
+  - 
+Terminal Emulators
+  - Terminator
+  - Yakuake
 
 TWitter Terminal Clients
   - Rainbow Stream
@@ -173,7 +145,12 @@ TWitter Terminal Clients
 Windows On Linux
   - Bottles
   - Phoenecics
- 
+
+Video Calling and Conferancing
+   -  Microsoft Teams
+   -  Skype
+   -  Zoom
+
 Virtualisation 
    - Boxes
    - Oracle VM
