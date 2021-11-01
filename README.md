@@ -5,7 +5,9 @@ elci.sh is our first project release. Over 20 different software categories rang
 
 To download the entire elci.sh project, enter the following into your terminal
 
-git clone https://github.com/ELCI-Linux/elci.sh
+    git clone https://github.com/ELCI-Linux/elci.sh
+    cd ./elci.sh
+    bash elci.sh
 
 
 <!---
