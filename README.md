@@ -3,7 +3,7 @@ During the course of development, elements of the project will be published publ
 
 elci.sh is our first project release. Over 20 different software categories ranging from calculators and web browsers, to DAWs and video editing can be installed using the elci.sh script and the accompanying scripts.
 
-To download the entire elci.sh project, enter the following into your terminal
+To use the entire elci.sh project, enter the following into your terminal
 
     git clone https://github.com/ELCI-Linux/elci.sh
     cd ./elci.sh
