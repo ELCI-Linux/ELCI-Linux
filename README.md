@@ -1,14 +1,6 @@
-👋 Hi, ELCI-Linux is an open source project aimed at creating a forked Linux distro for home use and deployment in small-to-medium sized business.
-During the course of development, elements of the project will be published publicly for open collaboation and feed back.
+👋 Welcome to the ELCI-Linux github page. 
 
-elci.sh is our first project release. Over 20 different software categories ranging from calculators and web browsers, to DAWs and video editing can be installed using the elci.sh script and the accompanying scripts.
-
-To use the entire elci.sh project, enter the following into your terminal
-
-    git clone https://github.com/ELCI-Linux/elci.sh
-    cd ./elci.sh
-    bash elci.sh
-
+During our migration from Windows to Linux, we found installing software was often consuming more time than actually performing the tasks the software was required for. Obscure repositories, varying installation methods and poorly written build instructions make installing software far to difficult for many users. Our helpers are designed to simplify installationby removing the need for the end user to have prior experience, met dependencies or research into how to install a specific program.
 
 <!---
 ELCI-Linux/ELCI-Linux is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
