@@ -1,6 +1,6 @@
 👋 Welcome to the ELCI-Linux github page. 
 
-During our migration from Windows to Linux, we found installing software was often consuming more time than actually performing the tasks the software was required for. This was largely due to obscure repositories, varying installation methods or poorly written build instructions, which make installing software far to difficult for many users.
+During our migration from Windows to Linux, we found installing software was often consuming more time than actually performing the tasks the software was required for. This was largely due to obscure repositories, varying installation methods or poorly written build instructions, which make installing software far too difficult for many users.
 
 As we have developed our knowledge base, we have developed tools to remove much of this hassle.
 
